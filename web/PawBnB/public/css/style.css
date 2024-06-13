@@ -1,0 +1,43 @@
+/*Importacion de Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/*CSS de la parte de inico */
+
+#imagen_perro{
+    width: 100%;
+}
+#logo{
+    width: 50%;
+
+}
+#fila-1-der{
+    background-image: url('../img/mancha_blanca.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#fila-1-izq{
+    font-family: 'Quicksand', Courier, monospace;
+}
+
+#content-start{
+    height: 100%;
+}
+.iconinicio{
+    font-size: 8vh;
+    color: #007bff;
+}
+
+/*Fase de desarrollo*/
+.modal-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/*Fase de desarrollo*/
+
+@media only screen and (max-width: 700px) {
+    #card-largo {
+        width: 80%;
+    }
+}
+
